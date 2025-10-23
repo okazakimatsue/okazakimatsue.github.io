@@ -1,0 +1,80 @@
+body{
+	background-color: lightgrey;
+}
+
+/*a todos los atributos que contengan
+ la clase que comiencen con box- ej de tarea*/
+[class^="box"]{
+	box-sizing: border-box;
+	background-color: tomato;
+	height: 200px;
+	width: 200px;
+	/*padding: 50px;*/
+	margin-bottom: 20px;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.box-1{
+	background-clip: padding-box; 
+	border: 30px dotted green;
+}
+
+.box-2{
+	border-style: dashed;
+	border-width: 20px;
+	border-color: blueviolet;
+}
+.box-3{
+	/*ancho*/
+	border-bottom-width: 10px;
+	border-right-width: 40px;
+	border-top-width: 30px;
+	border-left-width: 20px;
+	/*estilo*/
+	border-bottom-style: double;
+	border-left-style: groove;
+	border-right-style: solid;
+	border-top-style: dotted;
+	/*color*/
+	border-left-color: red;
+	border-top-color: limegreen;
+	border-bottom-color: darkcyan;
+	border-right-color: aqua;
+}
+
+/*.box-4{
+	border-width: 30px 40px 10px 20px;
+	border-style: dotted solid double groove;
+	border-color: limegreen aqua darkcyan red;
+}*/
+
+/*shorhands de shorhands*/
+.box-4{
+	border: groove 100px blue;
+}
+
+.box-5{
+	border-top: solid 100px aqua;
+	border-right: solid 100px green;
+	border-bottom: solid 100px purple;
+	border-left: solid 100px blue;
+}
+
+.box-6{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 100px;
+	border-color: transparent green transparent green;
+	/*tambien funciona border-color: transparent green*/
+}
+
+.box-7{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 200px 100px;
+	border-color: limegreen transparent;
+	/*redondear los bordes*/
+	border-radius: 50%;
+}

@@ -1,0 +1,67 @@
+body{
+	background-color: lightgrey;
+}
+
+/*a todos los atributos que contengan
+ la clase que comiencen con box- ej de tarea*/
+[class^="box-"]{
+	box-sizing: border-box;
+	background-color: tomato;
+	height: 200px;
+	width: 200px;
+	padding: 50px;
+}
+p{
+	background-color: lime;
+}
+.box-1{
+	/*propiedades del margin*/
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	/* este seria el shorthand
+	margin:50px 30px 150px 100px; */
+	/*shorthand como loop*/
+	/*margin:50px 100px 200px; endiende 50 100 200 100*/
+
+}
+.box-2{
+	margin-top: 250px;
+}
+
+.box-3{
+	margin: auto
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid blue;
+}
+
+.item{
+	border: 2px solid blue;
+	margin: auto;
+}
+
+.box-4{
+	/*propiedades del margin*/
+	padding 50px 100px 100px 50px;
+	/* este seria el shorthand
+	margin:50px 30px 150px 100px; */
+	/*shorthand como loop*/
+	/*margin:50px 100px 200px; endiende 50 100 200 100*/
+
+}
+
+.container2{
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid blue;
+}
+
+.item2{
+	border: 2px solid blue;
+	margin: auto;
+}

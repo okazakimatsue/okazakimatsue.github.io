@@ -1,0 +1,21 @@
+html{
+	font-size: 20px
+}
+
+.th-1{
+	font-size: 4em;
+}
+
+.span-th1{
+	color: blue;
+	font-size: 2em;
+}
+
+.th-2{
+	font-size: 4rem;
+}
+
+.span-th2{
+	color: red;
+	font-size: 4rem;
+}

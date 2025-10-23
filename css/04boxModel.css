@@ -1,0 +1,25 @@
+body{
+	background-color: lightgrey;
+}
+
+/*a todos los atributos que contengan
+ la clase que comiencen con box- ej de tarea*/
+[class^="box-"]{
+	background-color: tomato;
+	/*background-clip: content-box;*/
+	box-sizing: border-box;
+	height: 200px;
+	width: 200px;
+	padding: 50px;
+	border: 10px solid black;
+	margin: 50px;
+	/*float: right;*/
+}
+.box{
+	background-color: lime;
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	padding: 20px;
+	border: 10px;
+}
